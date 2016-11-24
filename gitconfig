@@ -1,0 +1,16 @@
+[user]
+  name = Walter Breakell
+  email = walterjbreakell@gmail.com
+[credential]
+  helper = osxkeychain
+[core]
+  excludesfile = ~/.gitignore
+  autocrlf = input
+[fetch]
+  prune = true
+[merge]
+  ff = only
+[push]
+  default = current
+[rebase]
+  autosquash = true
