@@ -28,8 +28,9 @@ After the initial installation, you can run `rcup` without the one-time variable
 `RCRC` being set (`rcup` will symlink the repo's `rcrc` to `~/.rcrc` for future
 runs of `rcup`).
 
-You should run `rcup` after pulling a new version of the repository to symlink
-any new files in the repository.
+The `rcup` command will create symlinks for config files in your home directory.
+You should run this command after pulling a new version of the repository to
+symlink any new files in the repository:
 
 ```
 rcup
