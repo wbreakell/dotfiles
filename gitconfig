@@ -6,6 +6,7 @@
 [core]
   excludesfile = ~/.gitignore
   autocrlf = input
+  editor = vim
 [fetch]
   prune = true
 [merge]
