@@ -23,6 +23,7 @@ let mapleader = ' '
 set backspace=2
 set nobackup
 set nowritebackup
+set backupcopy=yes
 set noswapfile
 set history=50
 set ruler
