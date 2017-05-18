@@ -48,6 +48,9 @@ set expandtab
 " display extra whitespace
 set list listchars=tab:»·,trail:·,nbsp:·
 
+" fix problematic vim-airline escape characters
+set t_RV=
+
 " color scheme
 colorscheme nova
 
