@@ -1,5 +1,6 @@
 # variables
 export PS1="\W \u\$ "
+export PATH="$PATH:`yarn global bin`"
 
 # aliases
 alias ll="ls -lahG"
