@@ -7,6 +7,7 @@ alias mkdir="mkdir -p"
 
 # rbenv
 eval "$(rbenv init -)"
+export RUBY_CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl@1.1)"
 
 # nvm
 export NVM_DIR="$HOME/.nvm"
