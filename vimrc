@@ -10,7 +10,6 @@ Plug 'tpope/vim-eunuch'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-surround'
-Plug 'trevordmiller/nova-vim'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-syntastic/syntastic'
 
@@ -50,9 +49,6 @@ set list listchars=tab:»·,trail:·,nbsp:·
 
 " fix problematic vim-airline escape characters
 set t_RV=
-
-" color scheme
-colorscheme nova
 
 " syntastic settings
 let g:syntastic_check_on_open=1
