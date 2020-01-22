@@ -37,6 +37,8 @@ set textwidth=80
 set colorcolumn=+1
 set complete+=kspell
 set diffopt+=vertical
+set modelines=0
+set nomodeline
 
 " indentation settings
 set tabstop=2
