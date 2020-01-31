@@ -1,6 +1,6 @@
 # dotfiles
 
-> Collection of bash, git, hyper, and vim configuration files
+> Collection of bash, git, and vim configuration files
 
 
 ## Install
